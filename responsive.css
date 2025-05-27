@@ -110,12 +110,6 @@ footer p{
 }
 }
 
-/* Mobile Devices 0-370px */
-@media screen and (max-width:370px) {
-        .languages{
-        width: auto;
-    }
-}
 /* Mobile Device 371-600px */
 @media screen and (max-width:600px) {
 
@@ -223,6 +217,8 @@ footer p{
     padding-bottom: 24.94px;
     }
     .languages{
+        width:240px;
+        height:200px
         gap: 13.33px;
         border-radius: 16px;
     margin: 24px;
